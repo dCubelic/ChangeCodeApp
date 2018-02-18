@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		B43DE7C42039AD20004AAE92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43DE7C32039AD20004AAE92 /* AppDelegate.swift */; };
-		B43DE7C62039AD20004AAE92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43DE7C52039AD20004AAE92 /* ViewController.swift */; };
 		B43DE7C92039AD20004AAE92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43DE7C72039AD20004AAE92 /* Main.storyboard */; };
 		B43DE7CB2039AD20004AAE92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43DE7CA2039AD20004AAE92 /* Assets.xcassets */; };
 		B43DE7CE2039AD20004AAE92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43DE7CC2039AD20004AAE92 /* LaunchScreen.storyboard */; };
+		B43DE7D62039AD33004AAE92 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43DE7D52039AD33004AAE92 /* Client.swift */; };
+		B43DE7D82039BC96004AAE92 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43DE7D72039BC96004AAE92 /* RegisterViewController.swift */; };
+		B43DE7DA2039BE8D004AAE92 /* NewUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43DE7D92039BE8D004AAE92 /* NewUserViewController.swift */; };
+		B43DE7DE2039C111004AAE92 /* TeamMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43DE7DD2039C111004AAE92 /* TeamMember.swift */; };
+		B43DE7E22039CAC6004AAE92 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43DE7E12039CAC6004AAE92 /* LogInViewController.swift */; };
+		B43DE7E42039DC39004AAE92 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43DE7E32039DC39004AAE92 /* Team.swift */; };
+		B43DE7E62039DE6E004AAE92 /* TeamDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43DE7E52039DE6E004AAE92 /* TeamDetailViewController.swift */; };
+		B43DE7E82039E51B004AAE92 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43DE7E72039E51B004AAE92 /* HomeViewController.swift */; };
+		B43DE7ED2039F14C004AAE92 /* TeamMemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43DE7EB2039F14C004AAE92 /* TeamMemberTableViewCell.swift */; };
+		B43DE7EE2039F14C004AAE92 /* TeamMemberTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B43DE7EC2039F14C004AAE92 /* TeamMemberTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B43DE7C02039AD20004AAE92 /* HTTPTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTTPTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43DE7C02039AD20004AAE92 /* ChangeCode App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChangeCode App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43DE7C32039AD20004AAE92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B43DE7C52039AD20004AAE92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B43DE7C82039AD20004AAE92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B43DE7CA2039AD20004AAE92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B43DE7CD2039AD20004AAE92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B43DE7CF2039AD20004AAE92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B43DE7D52039AD33004AAE92 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		B43DE7D72039BC96004AAE92 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		B43DE7D92039BE8D004AAE92 /* NewUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserViewController.swift; sourceTree = "<group>"; };
+		B43DE7DD2039C111004AAE92 /* TeamMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamMember.swift; sourceTree = "<group>"; };
+		B43DE7E12039CAC6004AAE92 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		B43DE7E32039DC39004AAE92 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		B43DE7E52039DE6E004AAE92 /* TeamDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailViewController.swift; sourceTree = "<group>"; };
+		B43DE7E72039E51B004AAE92 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B43DE7EB2039F14C004AAE92 /* TeamMemberTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamMemberTableViewCell.swift; sourceTree = "<group>"; };
+		B43DE7EC2039F14C004AAE92 /* TeamMemberTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamMemberTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +56,7 @@
 		B43DE7B72039AD20004AAE92 = {
 			isa = PBXGroup;
 			children = (
-				B43DE7C22039AD20004AAE92 /* HTTPTest */,
+				B43DE7C22039AD20004AAE92 /* ChangeCode App */,
 				B43DE7C12039AD20004AAE92 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +64,47 @@
 		B43DE7C12039AD20004AAE92 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B43DE7C02039AD20004AAE92 /* HTTPTest.app */,
+				B43DE7C02039AD20004AAE92 /* ChangeCode App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B43DE7C22039AD20004AAE92 /* HTTPTest */ = {
+		B43DE7C22039AD20004AAE92 /* ChangeCode App */ = {
 			isa = PBXGroup;
 			children = (
 				B43DE7C32039AD20004AAE92 /* AppDelegate.swift */,
-				B43DE7C52039AD20004AAE92 /* ViewController.swift */,
+				B43DE7E92039E52C004AAE92 /* Models */,
+				B43DE7D52039AD33004AAE92 /* Client.swift */,
 				B43DE7C72039AD20004AAE92 /* Main.storyboard */,
-				B43DE7CA2039AD20004AAE92 /* Assets.xcassets */,
-				B43DE7CC2039AD20004AAE92 /* LaunchScreen.storyboard */,
+				B43DE7E72039E51B004AAE92 /* HomeViewController.swift */,
+				B43DE7EB2039F14C004AAE92 /* TeamMemberTableViewCell.swift */,
+				B43DE7EC2039F14C004AAE92 /* TeamMemberTableViewCell.xib */,
+				B43DE7D72039BC96004AAE92 /* RegisterViewController.swift */,
+				B43DE7D92039BE8D004AAE92 /* NewUserViewController.swift */,
+				B43DE7E12039CAC6004AAE92 /* LogInViewController.swift */,
+				B43DE7E52039DE6E004AAE92 /* TeamDetailViewController.swift */,
 				B43DE7CF2039AD20004AAE92 /* Info.plist */,
+				B43DE7CC2039AD20004AAE92 /* LaunchScreen.storyboard */,
+				B43DE7CA2039AD20004AAE92 /* Assets.xcassets */,
 			);
-			path = HTTPTest;
+			path = "ChangeCode App";
+			sourceTree = "<group>";
+		};
+		B43DE7E92039E52C004AAE92 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B43DE7DD2039C111004AAE92 /* TeamMember.swift */,
+				B43DE7E32039DC39004AAE92 /* Team.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B43DE7BF2039AD20004AAE92 /* HTTPTest */ = {
+		B43DE7BF2039AD20004AAE92 /* ChangeCode App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B43DE7D22039AD20004AAE92 /* Build configuration list for PBXNativeTarget "HTTPTest" */;
+			buildConfigurationList = B43DE7D22039AD20004AAE92 /* Build configuration list for PBXNativeTarget "ChangeCode App" */;
 			buildPhases = (
 				B43DE7BC2039AD20004AAE92 /* Sources */,
 				B43DE7BD2039AD20004AAE92 /* Frameworks */,
@@ -79,9 +114,9 @@
 			);
 			dependencies = (
 			);
-			name = HTTPTest;
+			name = "ChangeCode App";
 			productName = HTTPTest;
-			productReference = B43DE7C02039AD20004AAE92 /* HTTPTest.app */;
+			productReference = B43DE7C02039AD20004AAE92 /* ChangeCode App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B43DE7BB2039AD20004AAE92 /* Build configuration list for PBXProject "HTTPTest" */;
+			buildConfigurationList = B43DE7BB2039AD20004AAE92 /* Build configuration list for PBXProject "ChangeCode App" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B43DE7BF2039AD20004AAE92 /* HTTPTest */,
+				B43DE7BF2039AD20004AAE92 /* ChangeCode App */,
 			);
 		};
 /* End PBXProject section */
@@ -125,6 +160,7 @@
 			files = (
 				B43DE7CE2039AD20004AAE92 /* LaunchScreen.storyboard in Resources */,
 				B43DE7CB2039AD20004AAE92 /* Assets.xcassets in Resources */,
+				B43DE7EE2039F14C004AAE92 /* TeamMemberTableViewCell.xib in Resources */,
 				B43DE7C92039AD20004AAE92 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +172,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B43DE7C62039AD20004AAE92 /* ViewController.swift in Sources */,
+				B43DE7D82039BC96004AAE92 /* RegisterViewController.swift in Sources */,
 				B43DE7C42039AD20004AAE92 /* AppDelegate.swift in Sources */,
+				B43DE7E62039DE6E004AAE92 /* TeamDetailViewController.swift in Sources */,
+				B43DE7E42039DC39004AAE92 /* Team.swift in Sources */,
+				B43DE7E22039CAC6004AAE92 /* LogInViewController.swift in Sources */,
+				B43DE7E82039E51B004AAE92 /* HomeViewController.swift in Sources */,
+				B43DE7DA2039BE8D004AAE92 /* NewUserViewController.swift in Sources */,
+				B43DE7DE2039C111004AAE92 /* TeamMember.swift in Sources */,
+				B43DE7ED2039F14C004AAE92 /* TeamMemberTableViewCell.swift in Sources */,
+				B43DE7D62039AD33004AAE92 /* Client.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,12 +320,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5J7U5C6D83;
-				INFOPLIST_FILE = HTTPTest/Info.plist;
+				INFOPLIST_FILE = "ChangeCode App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dCubelic.HTTPTest;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dCubelic.ChangeCode App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -291,19 +336,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5J7U5C6D83;
-				INFOPLIST_FILE = HTTPTest/Info.plist;
+				INFOPLIST_FILE = "ChangeCode App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.dCubelic.HTTPTest;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dCubelic.ChangeCode App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B43DE7BB2039AD20004AAE92 /* Build configuration list for PBXProject "HTTPTest" */ = {
+		B43DE7BB2039AD20004AAE92 /* Build configuration list for PBXProject "ChangeCode App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B43DE7D02039AD20004AAE92 /* Debug */,
@@ -312,7 +358,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B43DE7D22039AD20004AAE92 /* Build configuration list for PBXNativeTarget "HTTPTest" */ = {
+		B43DE7D22039AD20004AAE92 /* Build configuration list for PBXNativeTarget "ChangeCode App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B43DE7D32039AD20004AAE92 /* Debug */,

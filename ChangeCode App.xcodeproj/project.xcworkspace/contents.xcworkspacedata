@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:HTTPTest.xcodeproj">
+      location = "self:/Users/dominik/Desktop/HTTPTest/ChangeCode App.xcodeproj">
    </FileRef>
 </Workspace>
